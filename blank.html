@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blank.css">
+    <script src="blank.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-div">
+            <h1 class="header-text">
+                Не Google форма
+            </h1>
+        </div>      
+    </header>
+    <main class="main">
+        <form id="main-form">
+            <div class="main-div-item">
+                <legend>Любимый фильм*</legend>
+                    <div>
+                        <input type="input" name="scales" id="f-film" class="main-div-item-input">
+                    </div>
+            </div>
+            <div class="main-div-item">
+                <legend>Жанр*</legend>
+                
+                    <div>
+                        <input type="checkbox" id="adv" name="adv" checked>
+                        <label for="adv">Приключение</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="hrr" name="hrr">
+                        <label for="hrr">Ужасы</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mrh" name="mrh">
+                        <label for="mrh">Боевик</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lve" name="lve">
+                        <label for="lve">Романтика</label>
+                    </div>
+               
+            </div>
+            <div class="main-div-item">
+          
+                <legend>Тип*</legend>
+                
+                    <div>
+                        <input type="checkbox" id="mve" name="mve" checked>
+                        <label for="mve">Фильм</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="anm" name="anm">
+                        <label for="anm">Мультфильм</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="flm" name="flm">
+                        <label for="flm">Сериал</label>
+                    </div>
+           
+            </div>
+            <div class="main-div-item">
+  
+                    <fieldset class="main-div-fieldset">
+                        <legend>Регион*</legend>
+                            <select id="regions" name="regions" class="main-div-item-fields">
+                                <option value="Украина">Украина</option>
+                                <option value="Польша">Польша</option>
+                                <option value="Молдова">Молдова</option>
+                                <option value="Узбекистан">Узбекистан</option>
+                            </select>
+                    </fieldset>
+ 
+            </div>
+            <div class="main-div-item">
+                <input id="send-form"
+                       type="button"
+                       value="Отправить"
+                >
+                <input id="reset-form"
+                       type="button"
+                       value="Очистить"
+                >
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
